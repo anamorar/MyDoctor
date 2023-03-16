@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">My Doctor</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Detalii Personale</string>
+    <string name="menu_gallery">Galerie</string>
+    <string name="menu_slideshow">Calendar</string>
+    <string name="todo">TODO</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="nuAiCont">Nu ai cont?</string>
+    <string name="registerYou">Creează cont!</string>
+    <string name="email">Email</string>
+    <string name="back"><![CDATA[<-]]></string>
+    <string name="date_personale">Date personale</string>
+    <string name="galerie">Galerie</string>
+    <string name="calendar">Calendar</string>
+    <string name="logout">LogOut</string>
+    <string name="Save">Save</string>
+    <string name="Update">Update</string>
+    <string name="greutate">Greutate</string>
+    <string name="bmi">BMI</string>
+    <string name="blood_pressure">Blood Pressure</string>
+    <string name="nume">Nume</string>
+    <string name="gen">Gen</string>
+    <string name="puls">Puls</string>
+    <string name="temperatura">Temperatură</string>
+    <string name="n_l_ime">Înălțime</string>
+    <string name="kg">kg</string>
+    <string name="metri">cm</string>
+    <string name="gradeCelsius">grade Celsius</string>
+    <string name="mmHG">mmHg</string>
+   <string name="convert">Convertește în PDF</string>
+    <string name="select_image">Selectează imagini</string>
+    <string name="adeverinte">Adeverințe</string>
+    <string name="analize">Analize medicale</string>
+    <string name="addDocument">Adaugă document</string>
+    <string name="pdf_name">PDF Name</string>
+    <string name="rename">Redenumire</string>
+
+    <string name="username_cannot_empty">Username nu poate fi gol!</string>
+    <string name="email_cannot_empty">Email-ul nu poate fi gol!</string>
+    <string name="email_not_valid">Email-ul nu e valid!</string>
+    <string name="password_cannot_empty">Password nu poate fi goală!</string>
+    <string name="password_too_short"><![CDATA[Password e prea scurtă! Trebuie să fie >= 8!]]></string>
+    <string name="editable">Poți edita acum!</string>
+    <string name="saved">Datele tale personale sunt salvate!</string>
+    <string name="wrong_height">Înălțimea trebuie să fie între 30 și 250</string>
+    <string name="wrong_temp">Temperatura trebuie să fie între 36 și 42!</string>
+    <string name="wrong_puls">Pulsul trebuie să fie între 30 și 150</string>
+    <string name="changePass">Schimbă parola</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="oldPass">Parola veche</string>
+    <string name="newPass">Parola nouă</string>
+    <string name="again_new_password">Parola nouă încă o dată</string>
+    <string name="wrong_pass">Parola veche nu e corectă!!!</string>
+    <string name="changed">Parola a fost schimbată!</string>
+    <string name="wrong_new_pass">Cele 2 parole noi nu sunt la fel!</string>
+    <string name="welcome">Bine ai venit!</string>
+     <string name="select_a_date">Selectează o dată</string>
+    <string name="forward"><![CDATA[->]]></string>
+    <string name="new_event">Adaugă eveniment</string>
+    <string name="event_title">Titlu:</string>
+    <string name="event_date">Data</string>
+    <string name="event_time">Ora</string>
+
+</resources>
