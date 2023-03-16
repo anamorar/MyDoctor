@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_detalii"
+            android:icon="@drawable/person"
+            android:title="@string/date_personale" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/galerie" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@android:drawable/ic_menu_month"
+            android:title="@string/calendar" />
+
+        <item
+            android:id="@+id/nav_changePass"
+            android:icon="@android:drawable/ic_lock_lock"
+            android:title="@string/changePass" />
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="@string/logout" />
+
+    </group>
+</menu>
