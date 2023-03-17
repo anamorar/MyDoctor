@@ -69,5 +69,6 @@
     <string name="event_title">Titlu:</string>
     <string name="event_date">Data</string>
     <string name="event_time">Ora</string>
+    <string name="age">Vârstă</string>
 
 </resources>

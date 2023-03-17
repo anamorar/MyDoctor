@@ -328,6 +328,46 @@
         app:layout_constraintEnd_toStartOf="@+id/kgInput"
         app:layout_constraintHorizontal_bias="0.046"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/age"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/ageInput"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="140dp"
+        android:clickable="false"
+        android:editable="false"
+        android:ems="10"
+        android:enabled="false"
+        android:fontFamily="sans-serif-medium"
+        android:hint="@string/age"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:textAlignment="textStart"
+        android:textColorHint="#78909C"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numeInput" />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="56dp"
+        android:capitalize="none"
+        android:fontFamily="sans-serif-condensed-light"
+        android:includeFontPadding="false"
+        android:text="@string/age"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/ageInput"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/nume"
         tools:ignore="TouchTargetSizeCheck" />
 
@@ -389,7 +429,7 @@
         android:textColorHint="#78909C"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/numeInput" />
+        app:layout_constraintTop_toBottomOf="@+id/ageInput" />
 
     <Spinner
         android:id="@+id/genInput"

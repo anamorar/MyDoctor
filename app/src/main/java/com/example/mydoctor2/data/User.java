@@ -30,6 +30,9 @@ public class User implements Parcelable {
     @ColumnInfo(name = "bloodPressure")
     private int bloodPressure;
 
+    @ColumnInfo(name = "age")
+    private int age;
+
     @ColumnInfo(name = "kg")
     private float kg;
 
@@ -56,6 +59,7 @@ public class User implements Parcelable {
         email = in.readString();
         password = in.readString();
         bloodPressure = in.readInt();
+        age = in.readInt();
         kg = in.readInt();
         height = in.readInt();
         temperature = in.readInt();
@@ -107,6 +111,14 @@ public class User implements Parcelable {
 
     public void setBloodPressure(int bloodPressure) {
         this.bloodPressure = bloodPressure;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 
     public float getKg() {
@@ -170,11 +182,11 @@ public class User implements Parcelable {
         dest.writeString(email);
         dest.writeString(password);
         dest.writeString(String.valueOf(sex));
+        dest.writeString(String.valueOf(age));
         dest.writeString(String.valueOf(kg));
         dest.writeString(String.valueOf(height));
         dest.writeString(String.valueOf(temperature));
         dest.writeString(String.valueOf(pulse));
-
     }
 
     @Override
@@ -185,6 +197,7 @@ public class User implements Parcelable {
                 ", email='" + email + '\'' +
                 ", password='" + password + '\'' +
                 ", bloodPressure=" + bloodPressure +
+                ", age=" + age +
                 ", kg=" + kg +
                 ", height=" + height +
                 ", temperature=" + temperature +

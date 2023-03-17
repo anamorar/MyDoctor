@@ -26,7 +26,7 @@ import com.example.mydoctor2.other.SharedPref;
 
 public class HomeFragment extends Fragment {
 
-    private EditText name, kg, height, temp, puls, blood, bmi, status;
+    private EditText name, age, kg, height, temp, puls, blood, bmi, status;
     private Spinner gender;
 
     private FragmentHomeBinding binding;
@@ -45,6 +45,10 @@ public class HomeFragment extends Fragment {
         name = rootView.findViewById(R.id.numeInput);
         if(user.getName() != null)
             name.setText(user.getName());
+
+        age = rootView.findViewById(R.id.ageInput);
+        if(user.getAge() != 0)
+            age.setText(user.getAge());
 
         kg = rootView.findViewById(R.id.kgInput);
         if(user.getKg() != 0){
